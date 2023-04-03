@@ -48,6 +48,7 @@ public:
         cin>>a;
         avai_balance = tot - a;
         cout<<"Available Balance is "<<avai_balance;
+        tot = avai_balance;
     }
 };
 int main()
